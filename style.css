@@ -179,9 +179,6 @@
   flex-shrink: 0;
   margin: 0 30px 16px 0; }
 
-.slide:last-child {
-  margin-right: 0; }
-
 .slide a {
   width: 100%;
   height: 100%;
@@ -774,7 +771,7 @@ header {
 .header__menu_drop-menu {
   display: block;
   position: absolute;
-  min-width: 300px;
+  min-width: 270px;
   max-width: 360px;
   top: 0%;
   left: 0%;
@@ -1236,7 +1233,7 @@ footer {
   .header__menu_drop-menu {
     display: block;
     position: static;
-    width: 306px;
+    width: 270px;
     background-color: #fff;
     box-shadow: none;
     z-index: 2;
