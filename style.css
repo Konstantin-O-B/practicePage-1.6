@@ -156,12 +156,12 @@
 .swiper-pagination-lock {
   display: none; }
 
-.swiper, .swiper_second {
+.swiper,
+.swiper_second {
   width: 830px;
   margin-left: 16px !important;
   overflow: hidden;
-  margin-bottom: 16px;
-  /* background: linear-gradient(90deg, rgba(255,255,255,0) 85%, rgba(255,255,255,0.969625350140056) 94%, rgba(255,255,255,1) 100%); */ }
+  margin-bottom: 16px; }
 
 .swiper-wrapper {
   display: flex;
@@ -281,7 +281,6 @@
   display: none; }
 
 .read-more-checker {
-  /*спрятал чекер с галочкой*/
   opacity: 0;
   position: absolute;
   transition: 0.3s; }
@@ -299,7 +298,10 @@
   background-position: 0 50%; }
 
 .swiper #swiperLoadMore:checked ~ .swiper__load-more .view-all,
-.swiper_second #swiperSecondLoadMore:checked ~ .swiper-second__load-more .view-all {
+.swiper_second
+#swiperSecondLoadMore:checked
+~ .swiper-second__load-more
+.view-all {
   display: none; }
 
 .swiper #swiperLoadMore:checked ~ .swiper__load-more .hide,
@@ -307,7 +309,6 @@
   display: block; }
 
 .read-more-checker:checked ~ .text {
-  /*применяется для всех элементов с классом text, после перевода в статус checked элемента с классом read-more-checker*/
   max-height: none;
   transition: 0.3s; }
 
@@ -407,9 +408,7 @@
   width: 119px;
   height: 32px;
   background-color: #ff3e79;
-  border-radius: 16px;
-  /* position: absolute;
-  transform: translateX(105px) translateY(150px); */ }
+  border-radius: 16px; }
 
 .slide_third a .arrow {
   width: 6px;
@@ -647,7 +646,6 @@ br {
 
 .arrow {
   display: inline-block;
-  /* background-color: $pinkBtn; */
   width: 10px;
   height: 10px;
   position: relative;
@@ -807,7 +805,7 @@ header {
   padding: 5px; }
 
 .active::before {
-  content: "";
+  content: '';
   position: absolute;
   top: -5px;
   left: -16px;
@@ -816,7 +814,7 @@ header {
   background-color: #41f6d7;
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
-  transition: background-color .3s; }
+  transition: background-color 0.3s; }
 
 .drop-menu__list a:hover {
   color: #7e7e82; }
@@ -1079,7 +1077,10 @@ footer {
     display: none;
     transition: 0.1s ease-in; }
   .swiper #swiperLoadMore:checked ~ .swiper-wrapper > div:nth-child(1n + 3),
-  .swiper_second #swiperSecondLoadMore:checked ~ .swiper-wrapper > div:nth-child(1n + 3) {
+  .swiper_second
+#swiperSecondLoadMore:checked
+~ .swiper-wrapper
+> div:nth-child(1n + 3) {
     max-height: 999px;
     display: block;
     transition: 0.2s ease-in; }
@@ -1159,7 +1160,10 @@ footer {
     display: none;
     transition: 0.1s ease-in; }
   .swiper #swiperLoadMore:checked ~ .swiper-wrapper > div:nth-child(1n + 7),
-  .swiper_second #swiperSecondLoadMore:checked ~ .swiper-wrapper > div:nth-child(1n + 4) {
+  .swiper_second
+#swiperSecondLoadMore:checked
+~ .swiper-wrapper
+> div:nth-child(1n + 4) {
     max-height: 999px;
     display: block;
     transition: 0.2s ease-in; }
@@ -1251,7 +1255,10 @@ footer {
     display: none;
     transition: 0.1s ease-in; }
   .swiper #swiperLoadMore:checked ~ .swiper-wrapper > div:nth-child(1n + 9),
-  .swiper_second #swiperSecondLoadMore:checked ~ .swiper-wrapper > div:nth-child(1n + 5) {
+  .swiper_second
+#swiperSecondLoadMore:checked
+~ .swiper-wrapper
+> div:nth-child(1n + 5) {
     max-height: 999px;
     display: block;
     transition: 0.2s ease-in; }
