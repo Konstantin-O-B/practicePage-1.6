@@ -177,7 +177,10 @@
   border-radius: 4px;
   background-color: #fff;
   flex-shrink: 0;
-  margin: 0 32px 16px 0; }
+  margin: 0 30px 16px 0; }
+
+.slide:last-child {
+  margin-right: 0; }
 
 .slide a {
   width: 100%;
@@ -771,7 +774,7 @@ header {
 .header__menu_drop-menu {
   display: block;
   position: absolute;
-  min-width: 320px;
+  min-width: 300px;
   max-width: 360px;
   top: 0%;
   left: 0%;
@@ -1233,8 +1236,7 @@ footer {
   .header__menu_drop-menu {
     display: block;
     position: static;
-    min-width: 303px;
-    max-width: 360px;
+    width: 306px;
     background-color: #fff;
     box-shadow: none;
     z-index: 2;
@@ -1265,7 +1267,7 @@ footer {
   .drop-menu__footer {
     margin-top: 240px; }
   .swiper_second {
-    width: 1200px; }
+    width: 1096px; }
   .popup__button {
     position: absolute;
     transform: translateX(-90px) translateY(10px); } }
